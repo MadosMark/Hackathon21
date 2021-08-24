@@ -11,7 +11,7 @@ const unityContext = new UnityContext({
 
 
 function App() {
-  console.log(unityContext);
+  
   return (
     <div className="App">
       <Unity unityContext={unityContext} style={{width:'70vw'}}/>
