@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import Unity, { UnityContext } from "react-unity-webgl";
 import './App.css';
 
+
+const unityContext = new UnityContext({
+  loaderUrl: "./HackaThonBuild/Build/HackaThonBuild.loader.js",
+  dataUrl: "./HackaThonBuild/Build/HackaThonBuild.data",
+  frameworkUrl: "./HackaThonBuild/Build/HackaThonBuild.framework.js",
+  codeUrl: "./HackaThonBuild/Build/HackaThonBuild.wasm",
+});
+
+
 function App() {
+  console.log(unityContext);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Unity unityContext={unityContext} style={{width:'70vw'}}/>
     </div>
+    
   );
 }
 
