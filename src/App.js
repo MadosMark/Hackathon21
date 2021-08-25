@@ -1,22 +1,26 @@
-import Unity, { UnityContext } from "react-unity-webgl";
 import './App.css';
+import Home from './views/home';
+import About from './views/about';
+import Video from './views/video';
+import { BrowserRouter as Router , Route, Switch} from 'react-router-dom';
 
 
-const unityContext = new UnityContext({
-  loaderUrl: "./HackaThonBuild/Build/HackaThonBuild.loader.js",
-  dataUrl: "./HackaThonBuild/Build/HackaThonBuild.data",
-  frameworkUrl: "./HackaThonBuild/Build/HackaThonBuild.framework.js",
-  codeUrl: "./HackaThonBuild/Build/HackaThonBuild.wasm",
-});
+
 
 
 function App() {
   
   return (
-    <div className="App">
-      <Unity unityContext={unityContext} style={{width:'70vw'}}/>
-    </div>
     
+  <div className="App">
+   <Router>
+      <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/video' component={Video} />
+              <Route path='/about' component={About} />
+          </Switch>
+    </Router>
+    </div>
     
   );
 }
