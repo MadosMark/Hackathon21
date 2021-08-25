@@ -5,12 +5,30 @@
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .navyBar {
   text-decoration: none;
   color: black;
   margin: 1rem;
+  animation: fadeIn 5s;
+  font-size: 20px;
+}
+
+.navyBar:hover {
+  color: red;
+  font-size: 25px;
+  transition: 200ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .navDiv {

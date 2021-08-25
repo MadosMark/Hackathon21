@@ -8,20 +8,17 @@ return (
         <nav className="navy">
             <ul className="navBar">
                 <li>
-                <Link to ={"/"} className="navyBar">Home</Link>
+                <Link to ={"/"} className="navyBar">Hem</Link>
                 </li> 
                 <li>
                 <Link to={"/video"} className="navyBar">Video</Link>
                 </li>
                 <li>
-                <Link to={"/about"} className="navyBar">About</Link>
+                <Link to={"/about"} className="navyBar">Om Oss</Link>
                 </li>
             </ul>
         </nav>
     </div>
-
-
-
 
 );
 }
