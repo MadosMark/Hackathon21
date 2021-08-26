@@ -5,15 +5,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(/src/images/gbg.png);
-  background-size: 400px;
-  background-repeat: no-repeat;
-  background-position: center 1rem;
 }
 
 .imageHome {
   width: 50%;
-  margin-top: 10rem;
+}
+
+.gothenburg {
+  width: 25rem;
+  margin-bottom: -5rem;
 }
 
 .imageHeart {

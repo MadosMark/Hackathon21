@@ -3,6 +3,7 @@ import Navbar from '../components/nav';
 import './home.css';
 import logo from '../images/logo.png';
 import heart from '../images/heart.png';
+import gbg from '../images/gbg.png';
 
 
 
@@ -12,6 +13,7 @@ return (
 <section className="HomeContainer">
  <div> 
 </div>
+<img className="gothenburg" src={gbg} alt="Gbg" />
 <img className="imageHome" src={logo} alt="Logo" />
 <Navbar></Navbar>
 <img className="imageHeart" src={heart} alt="Heart" />
