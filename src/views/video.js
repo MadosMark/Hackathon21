@@ -20,7 +20,6 @@ function Video () {
          <>
          <Navbar></Navbar>
          <div className="videoDiv">
-             
          <Unity unityContext={unityContext} style={{width:'85vw'}}/>
          
          

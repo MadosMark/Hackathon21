@@ -14,7 +14,7 @@ return (
 <div className="aboutContainer">
  </div>
 <Aboutnav></Aboutnav>
-<p className="tryck">(Tryck på ett namn för att veta mer)</p>
+<h4 className="tryck">(Tryck på ett namn för att veta mer)</h4>
  </section>
 </>
 );
