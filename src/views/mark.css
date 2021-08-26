@@ -24,11 +24,5 @@ p {
 }
 
 .description {
-  font-size: 20px;
-  width: 40rem;
-}
-
-.tryck {
-  font-size: 15px;
-  background-color: transparent;
+  margin-bottom: -20rem;
 }

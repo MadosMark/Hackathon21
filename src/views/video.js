@@ -5,6 +5,7 @@ import '../views/video.css';
 
 
 
+
 const unityContext = new UnityContext({
     loaderUrl: "./HackaThonBuild/Build/HackaThonBuild.loader.js",
     dataUrl: "./HackaThonBuild/Build/HackaThonBuild.data",
@@ -21,6 +22,7 @@ function Video () {
          <div className="videoDiv">
              
          <Unity unityContext={unityContext} style={{width:'85vw'}}/>
+         
          
          </div>
          </>

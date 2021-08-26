@@ -1,41 +1,47 @@
-.navBar {
+.navAbout {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 1rem;
+  margin-top: -2rem;
   padding: 0;
   width: 100%;
 }
 
-.navyBar {
+.navBer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navyBor {
   text-decoration: underline red;
   color: black;
-  margin: 1rem;
+  margin: 2rem;
   /* animation: fadeIn 5s; */
   font-size: 25px;
   -webkit-transition: font-size 240ms ease-out;
   transition: font-size 240ms ease-out;
 }
 
-.navyBar:hover {
-  text-decoration: underline black;
+/* .navyBar:hover {
   color: red;
-  font-size: 28px;
-  /* transition: 200ms; */
-  cursor: pointer;
-}
+  font-size: 30px;
+  transition: 200ms;
+} */
 
-/* @keyframes fadeIn {
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-} */
+}
 
-.navDiv {
-  /* background-color: rgba(255, 0, 0, 0.6); */
-  height: 11px;
+.navyBor:hover {
+  font-size: 28px;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline black;
 }
