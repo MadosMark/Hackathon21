@@ -11,10 +11,13 @@ return (
                 <Link to ={"/"} className="navyBar">Hem</Link>
                 </li> 
                 <li>
-                <Link to={"/video"} className="navyBar">Video</Link>
+                <Link to={"/video"} className="navyBar">Spel</Link>
                 </li>
                 <li>
                 <Link to={"/about"} className="navyBar">Om Oss</Link>
+                </li>
+                <li>
+                    <a className="navyBar" href="https://www.yrgo.se/"> Yrgo </a>
                 </li>
             </ul>
         </nav>
