@@ -32,9 +32,11 @@ p {
   box-shadow: 0.5px 1px 3px #e47f40;
   display: flex;
   text-align: center;
+  align-items: center;
 }
 
 .description {
+  height: 15rem;
   font-family: "regular";
   font-size: 18px;
   width: 40rem;
