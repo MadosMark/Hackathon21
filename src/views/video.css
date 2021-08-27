@@ -10,3 +10,26 @@
   background-image: url(/./src/images/sky_day.png);
   overflow: hidden;
 }
+
+.loading {
+  color: white;
+  z-index: 0;
+  font-size: 35px;
+}
+
+.game {
+  z-index: 1;
+  position: absolute;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

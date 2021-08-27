@@ -21,7 +21,8 @@ function Video () {
          <section className="gameContainer">
          <Navbar></Navbar>
          <div className="videoDiv">
-         <Unity unityContext={unityContext} style={{width:'85vw'}}/>
+         <Unity className="game" unityContext={unityContext} style={{width:'85vw'}}/>
+             <h2 className="loading">Laddar in...</h2>
          
          
          </div>
