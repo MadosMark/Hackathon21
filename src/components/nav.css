@@ -12,7 +12,7 @@
   color: white;
   margin: 2rem;
   /* animation: fadeIn 5s; */
-  font-size: 25px;
+  font-size: 30px;
   -webkit-transition: font-size 240ms ease-out;
   transition: font-size 240ms ease-out;
 }

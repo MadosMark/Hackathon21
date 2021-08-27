@@ -35,7 +35,8 @@ p {
 }
 
 .description {
-  font-size: 20px;
+  font-family: "regular";
+  font-size: 18px;
   width: 40rem;
   color: whitesmoke;
 }

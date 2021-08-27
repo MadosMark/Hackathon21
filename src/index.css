@@ -11,6 +11,12 @@ code {
 }
 
 @font-face {
+  font-family: "regular";
+  src: local("regular"), url("./fonts/regular.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
   font-family: "yellowdesign";
   src: local("yellowdesign"), url("./fonts/yellowdesign.otf") format("truetype");
   font-weight: bold;
