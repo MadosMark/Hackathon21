@@ -7,10 +7,10 @@ import '../views/video.css';
 
 
 const unityContext = new UnityContext({
-    loaderUrl: "./HackaThonBuild/Build/HackaThonBuild.loader.js",
-    dataUrl: "./HackaThonBuild/Build/HackaThonBuild.data",
-    frameworkUrl: "./HackaThonBuild/Build/HackaThonBuild.framework.js",
-    codeUrl: "./HackaThonBuild/Build/HackaThonBuild.wasm",
+    loaderUrl: "./HackaThonBuildReal/Build/HackaThonBuild.loader.js",
+    dataUrl: "./HackaThonBuildReal/Build/HackaThonBuild.data",
+    frameworkUrl: "./HackaThonBuildReal/Build/HackaThonBuild.framework.js",
+    codeUrl: "./HackaThonBuildReal/Build/HackaThonBuild.wasm",
   });
 
   
