@@ -15,8 +15,8 @@
 }
 
 .navyBor {
-  text-decoration: underline red;
-  color: black;
+  text-decoration: underline #e47f40;
+  color: white;
   margin: 2rem;
   /* animation: fadeIn 5s; */
   font-size: 25px;
@@ -42,6 +42,6 @@
 .navyBor:hover {
   font-size: 28px;
   cursor: pointer;
-  color: red;
-  text-decoration: underline black;
+  color: #e47f40;
+  text-decoration: underline white;
 }

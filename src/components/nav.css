@@ -3,15 +3,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 1rem;
-  padding: 0;
-  width: 100%;
+  margin-top: 0;
+  padding: 0.5rem;
 }
 
 .navyBar {
-  text-decoration: underline red;
-  color: black;
-  margin: 1rem;
+  text-decoration: underline #e47f40;
+  color: white;
+  margin: 2rem;
   /* animation: fadeIn 5s; */
   font-size: 25px;
   -webkit-transition: font-size 240ms ease-out;
@@ -19,8 +18,8 @@
 }
 
 .navyBar:hover {
-  text-decoration: underline black;
-  color: red;
+  text-decoration: underline white;
+  color: #e47f40;
   font-size: 28px;
   /* transition: 200ms; */
   cursor: pointer;

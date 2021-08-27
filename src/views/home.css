@@ -1,10 +1,11 @@
 .HomeContainer {
-  height: 90vh;
+  height: 100vh;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(/./src/images/sky_day.png);
 }
 
 .imageSafe {
@@ -43,11 +44,13 @@
 }
 
 .fot {
+  height: 0rem;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 8rem;
 }
 
 .imageYrgo {

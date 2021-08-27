@@ -18,12 +18,14 @@ const unityContext = new UnityContext({
 function Video () {
     return (
          <>
+         <section className="gameContainer">
          <Navbar></Navbar>
          <div className="videoDiv">
          <Unity unityContext={unityContext} style={{width:'85vw'}}/>
          
          
          </div>
+         </section>
          </>
     );
 

@@ -8,8 +8,8 @@ import '../views/about.css';
 function About () {
 return (
 <>
-<Navbar></Navbar>
 <section className="aboutDiv">
+<Navbar></Navbar>
  <h3 className="aboutUs"> Om Oss</h3>
 <div className="aboutContainer">
  </div>
