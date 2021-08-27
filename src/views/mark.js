@@ -11,7 +11,7 @@ return (
 <Navbar></Navbar>
  <h3>Mark</h3>
     <Aboutnav></Aboutnav>
- <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+ <p className="description">Jag har varit delaktig i detta projektet som Webbutvecklare. Projektet har varit ett grupparbete och alla har haft sin del att fokusera på under projektets gång. Vi har haft morgonmöte varje dag och stämt av hur långt alla kommit och vad som skulle göras under dagen. Hemsidan är utvecklad i ramverket React och är interaktiv, responsiv och visuellt anpassad för enklast läsbarhet. Projektet har fått mig att lära mig mycket både som Webbutvecklare och som gruppmedlem. Vårat samarbete funkade bra och vi kom fram till ett coolt slutresultat. </p>
  </section>
 </>
 );
