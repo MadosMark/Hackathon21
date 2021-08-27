@@ -15,10 +15,14 @@
 }
 
 .aboutContainer {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10rem;
-  grid-auto-flow: column;
+  grid-auto-flow: column; */
 }
 
 p {
@@ -39,12 +43,12 @@ p {
 .tryck {
   font-size: 15px;
   background-color: transparent;
-  color: #e47f40;
+  color: white;
 }
 
 h3 {
   font-size: 45px;
-  color: #e47f40;
+  color: white;
   margin: 5rem;
   animation-name: floating;
   animation-duration: 2s;
