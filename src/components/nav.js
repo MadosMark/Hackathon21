@@ -16,9 +16,6 @@ return (
                 <li>
                 <Link to={"/about"} className="navyBar">Om Oss</Link>
                 </li>
-                <li>
-                    <a className="navyBar" href="https://www.yrgo.se/"> Yrgo </a>
-                </li>
             </ul>
         </nav>
     </div>

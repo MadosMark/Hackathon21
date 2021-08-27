@@ -1,5 +1,5 @@
 .HomeContainer {
-  height: 100vh;
+  height: 90vh;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -7,18 +7,18 @@
   flex-direction: column;
 }
 
-.imageHome {
-  width: 35%;
+.imageSafe {
+  width: 10%;
 }
 
-.gothenburg {
-  width: 25rem;
-  margin-bottom: -5rem;
+.spridavarme {
+  width: 30rem;
+  margin-bottom: -1rem;
 }
 
 .imageHeart {
   height: 15rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
   border-radius: 20rem;
   box-shadow: 0 0 0 0 rgb(255, 0, 0);
   transform: scale(1);
@@ -40,4 +40,28 @@
     transform: scale(0.95);
     box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
   }
+}
+
+.fot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageYrgo {
+  width: 4%;
+}
+
+.linkYrgo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.linkSafe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
